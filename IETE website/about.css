@@ -1,0 +1,203 @@
+* {
+  background-color: #060709;
+  color: #fcda05;
+}
+
+.homeHeader {
+  background-color: #393e46;
+  /* box-shadow: 10px; */
+  color: #fcda05;
+  display: flex;
+}
+
+.homeLogo {
+  height: 60px;
+  width: auto;
+  /* padding: 5px; */
+  margin: 5px;
+}
+
+.headerName {
+  background-color: #393e46;
+  font-weight: 800;
+  font-size: 40px;
+  padding: 10px;
+}
+
+.headerExp {
+  background-color: #393e46;
+  font-size: 15px;
+  margin: 10px 0;
+}
+.buttonContainer {
+  height: 100px;
+  width: 800px;
+}
+
+.homeFooter {
+  display: flex;
+  background-color: #393e46;
+  margin-top: 100px;
+}
+
+.navbar {
+  /* overflow: hidden; */
+  font-family: Arial;
+  background-color: #393e46;
+  position: absolute;
+  right: 75px;
+  top: 10px;
+}
+
+.navImg {
+  height: 27px;
+  width: auto;
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: #fcda05;
+  background-color: #393e46;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* The dropdown container */
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: #fcda05;
+
+  background-color: #393e46;
+  padding: 14px 16px;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+
+/* Add a red background color to navbar links on hover */
+.navbar a:hover,
+.dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: #060709;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.title {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: gold;
+  text-align: center;
+  font-size: 30px;
+}
+
+.top {
+  display: flex;
+}
+
+.abtImg {
+  width: 600px;
+  margin: 30px;
+}
+
+.heading {
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.about {
+  font-size: 20px;
+  margin: 20px;
+}
+
+.bottom {
+  background-color: #393e46;
+  display: flex;
+  margin: auto;
+  height: 120px;
+}
+
+.cell {
+  margin: auto;
+}
+
+.no {
+  font-size: 50px;
+}
+
+.bottomDesc {
+  text-align: center;
+  margin: 5px;
+}
+
+.features .icon-box i {
+  font-size: 32px;
+  padding-right: 10px;
+  line-height: 1;
+  font-family: "remixicon" !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+.clgName {
+  width: 350px;
+  font-size: 20px;
+  font-weight: 600;
+  background-color: #393e46;
+}
+
+.clgContainer {
+  display: flex;
+  align-content: center;
+  /* background-color: #393e46; */
+}
+
+.box {
+  background-color: #393e46;
+  text-align: center;
+  width: 350px;
+  margin: 30px auto;
+
+  /* margin: 20px; */
+}
+
+a:hover {
+  color: #f9f9f9;
+}
+
+.clgLogo {
+  height: 30px;
+  width: 30px;
+  margin: 10px;
+}

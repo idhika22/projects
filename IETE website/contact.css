@@ -1,0 +1,180 @@
+* {
+  background-color: #060709;
+  color: #fcda05;
+}
+
+.homeHeader {
+  background-color: #393e46;
+  /* box-shadow: 10px; */
+  color: #fcda05;
+  display: flex;
+}
+
+.homeLogo {
+  height: 60px;
+  width: auto;
+  /* padding: 5px; */
+  margin: 5px;
+}
+
+.headerName {
+  background-color: #393e46;
+  font-weight: 800;
+  font-size: 40px;
+  padding: 10px;
+}
+
+.headerExp {
+  background-color: #393e46;
+  font-size: 15px;
+  margin: 10px 0;
+}
+.buttonContainer {
+  height: 100px;
+  width: 800px;
+}
+
+.homeFooter {
+  display: flex;
+  background-color: #393e46;
+  margin-top: 100px;
+}
+
+.navbar {
+  /* overflow: hidden; */
+  font-family: Arial;
+  background-color: #393e46;
+  position: absolute;
+  right: 75px;
+  top: 10px;
+}
+
+.navImg {
+  height: 27px;
+  width: auto;
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: #fcda05;
+  background-color: #393e46;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* The dropdown container */
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: #fcda05;
+  background-color: #393e46;
+  padding: 14px 16px;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+
+/* Add a red background color to navbar links on hover */
+.navbar a:hover,
+.dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  color: #fcda05;
+
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: #060709;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+body {
+  background-color: #060709;
+}
+.title {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #fcda05;
+  text-align: center;
+}
+form {
+  background: #393e46;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  margin: 10px;
+  width: 500px;
+  height: 450px;
+  border-radius: 25px;
+  position: absolute;
+  left: 700px;
+  top: 150px;
+}
+form input,
+form textarea {
+  border: 0;
+  margin: 10px 0;
+  padding: 20px;
+  outline: none;
+  background: #fffbe0;
+  font-size: 20px;
+}
+form button {
+  padding: 15px;
+  background: #fcda05;
+  color: #060709;
+  font-size: 18px;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+  width: 150px;
+  margin: 20px auto 0;
+  border-radius: 30px;
+}
+.cover {
+  position: relative;
+  justify-content: right;
+  padding: 10px;
+  margin: 10px;
+  width: 500px;
+  height: 500px;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  display: flex;
+}
+
+.map {
+  height: 400px;
+  width: 100%;
+}
