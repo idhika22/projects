@@ -1,1 +1,1 @@
-this project is a digital clock created using html,css and javascript
+this project is a multiplication app created using html,css and javascript
